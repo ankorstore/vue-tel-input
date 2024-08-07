@@ -86,7 +86,7 @@
   import type { CountryCode, NumberFormat } from 'libphonenumber-js';
   import type { CountryObject, DropdownOptions, InputOptions, PhoneMeta } from '../types';
 
-  import { parsePhoneNumberFromString } from 'libphonenumber-js';
+  import { parsePhoneNumberFromString } from 'libphonenumber-js/max';
   import { getDefault, setCaretPosition, getCountry, toLowerCase, toUpperCase } from '../utils';
   import clickOutside from '../directives/click-outside';
   import { computed, nextTick, onMounted, reactive, shallowRef, watch, defineExpose } from 'vue';
